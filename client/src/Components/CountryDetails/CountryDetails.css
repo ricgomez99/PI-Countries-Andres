@@ -1,0 +1,93 @@
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+  margin: 60px auto;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px #cdd0cb;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+
+.card .card_image {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .card_title {
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+.card .card_description {
+  padding: 0 1rem;
+}
+
+.card .card_btn {
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  width: 87%;
+  cursor: pointer;
+  border: 2px solid #b980f0;
+  background: transparent;
+  color: #b980f0;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.detail_title {
+  color: #b1b2ff;
+}
+
+.id {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.activity_title {
+  padding: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.act {
+  color: #abadaa;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.activities {
+  padding: 1rem 1rem;
+}
+
+.activities ul {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 15px;
+}
+
+.activities li {
+  align-items: center;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: #abadaa;
+  padding: 0 8px;
+}
+
+.no-act {
+  text-align: center;
+}

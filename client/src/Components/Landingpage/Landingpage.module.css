@@ -1,0 +1,47 @@
+.title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  color: #181818;
+  padding-top: 10px;
+  letter-spacing: 0.2rem;
+}
+
+.intro {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #aaaaaa;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  word-spacing: 0.2rem;
+}
+
+.main {
+  position: relative;
+  padding: 20px 20px;
+}
+
+.content {
+  display: flex;
+  flex: center;
+  justify-content: space-between;
+  margin: 100px 30px;
+  position: absolute;
+}
+
+.image {
+  width: 700px;
+  height: 700px;
+  float: right;
+}
+
+.button {
+  padding-top: 35px;
+}
+
+.marked {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #b980f0;
+}

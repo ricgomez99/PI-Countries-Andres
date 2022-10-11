@@ -1,0 +1,9 @@
+@api =  http://localhost:3001
+
+
+GET {{api}}/countries
+
+###
+
+GET {{api}}/countries/COL
+

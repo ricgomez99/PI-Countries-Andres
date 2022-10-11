@@ -1,0 +1,17 @@
+@api = http://localhost:3001
+
+GET {{api}}/activities
+
+###
+POST {{api}}/activities
+Content-Type: application/json
+
+{
+    "name": "Pasear",
+    "difficulty": 2,
+    "countries": "ATF",
+    "duration": 1,
+    "season": "Winter"
+}
+
+
